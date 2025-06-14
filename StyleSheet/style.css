@@ -44,6 +44,10 @@ button {
   justify-content: center;
 }
 
+.error {
+  color: red;
+}
+
 /* Section ID Card */
 .id-cards {
   padding-top: 6rem;
