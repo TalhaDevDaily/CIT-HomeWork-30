@@ -1,26 +1,79 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+/* Section Search */
+.sub-header {
+  font-weight: 900;
+  letter-spacing: 0.3rem;
 }
 
-html {
-  font-size: 62.5%;
+h1 {
+  margin-top: -0.6rem;
+  font-size: 3rem;
+  font-weight: 400;
 }
 
-body {
-  font-family: "Roboto Mono", monospace;
-  color: #333;
+.search-section {
+  display: flex;
+  height: 14rem;
+  align-items: center;
+  justify-content: space-between;
 }
 
-.container {
-  max-width: 140rem;
-  margin: 0 auto;
+.search-box {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+input {
+  height: 3rem;
+  width: 40rem;
+  font-family: inherit;
+  font-size: 1.8rem;
+  padding: 1rem 2rem;
+  border-radius: 1rem;
+}
+
+button {
+  height: 3rem;
+  width: 10rem;
+  font-family: inherit;
+  font-size: 1.8rem;
+  padding: 1rem 2rem;
+  border-radius: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Section ID Card */
+.id-cards {
+  padding-top: 6rem;
+  display: grid;
+  grid-template-columns: repeat(4, 32rem);
+  gap: 6rem;
 }
 
 .id-card {
-  width: 30rem;
   padding: 1rem 2.5rem;
   border: 0.2rem solid #000;
   border-radius: 1rem;
+}
+
+.id-img {
+  width: 10rem;
+  height: 10rem;
+  background-color: gray;
+  border-radius: 50%;
+  margin: 0 auto;
+}
+
+.id-textbox {
+  margin-top: 2rem;
+  font-size: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.id-textbox h2::first-letter {
+  font-size: 2rem;
 }

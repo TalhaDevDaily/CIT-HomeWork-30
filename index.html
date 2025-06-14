@@ -14,14 +14,30 @@
     />
 
     <!-- My Custom CSS -->
+    <link rel="stylesheet" href="./StyleSheet/general.css" />
     <link rel="stylesheet" type="text/css" href="./StyleSheet/style.css" />
   </head>
   <body>
     <div class="container">
       <section class="search-section">
-        <input type="text" placeholder="Who are you looking for?..." />
-        <button>Search</button>
+        <a href="#"
+          ><span class="sub-header">Find your loved ones with...</span>
+          <h1>MissingPeopleWatch.com</h1></a
+        >
+        <div class="search-box">
+          <input type="text" placeholder="Who are you looking for?..." />
+          <button onclick="handleButton()">Search</button>
+          <p class="error"></p>
+        </div>
       </section>
+      <seciton class="id-cards">
+        <!-- 
+        <div class="id-card">
+          <div class="id-img"></div>
+          <div class="id-textbox">Hello</div>
+        </div> 
+        -->
+      </seciton>
     </div>
     <script src="./JavaScript/script.js"></script>
   </body>
